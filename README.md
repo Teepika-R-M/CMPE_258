@@ -1,11 +1,17 @@
 # CMPE_258 : Assignment 2
 
-## 
+## Part 1
 
+### Image Dataset
+### Text Dataset
+### Video Dataset
+### Custom Training
+### Tabular Dataset
 
+## Part 2
 
-## Example
-
+### Automl vision and timeseries forecasting models
+### E2E deployment of vision model to mobile device
 
 The main entry point for defining how you expect your data to look is the [VerificationSuite](src/main/scala/com/amazon/deequ/VerificationSuite.scala) from which you can add [Checks](src/main/scala/com/amazon/deequ/checks/Check.scala) that define constraints on attributes of the data. In this example, we test for the following properties of our data:
 
