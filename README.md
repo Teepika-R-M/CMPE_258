@@ -34,4 +34,3 @@ List of changes tried for different models are as follows:
 * CNN: Optimizer, filter and kernel_size are tried with different values.
 * Ensemble ML and Statistical models: Replacement of weights
 
-### E2E deployment of vision model to mobile device
