@@ -1,17 +1,31 @@
 # CMPE_258 : Assignment 2
 
+Below details covers the list of different things explored in addition to mandatory requirements of assignment.
+
 ## Part 1
 
-### Image Dataset
+### Image Dataset:
+New Image Dataset has been downloaded from Kaggle. This dataset comprises images of cats and dogs. AutoML has been executed on this dataset to get accurate results.
+
 ### Text Dataset
+Based on current trends, dataset on discussion about COVID has been downloaded for models Text Classification Single Label and Sentiment Analysis.
+
 ### Video Dataset
+Data split ratio for Training, Validation and Test has been explored with different values to know it's impact on the model output. Custom jar with pre-built cotainer has been tried instead of AutoML, however got stuck with an error.
+
 ### Custom Training
+
+
 ### Tabular Dataset
+Gone for chronological assignment in data split. Have chosen a column with higher preference as weight column. Chosen RMSLE instead of RMSE.
+
 
 ## Part 2
 
 ### Automl vision and timeseries forecasting models
 ### E2E deployment of vision model to mobile device
+
+
 
 The main entry point for defining how you expect your data to look is the [VerificationSuite](src/main/scala/com/amazon/deequ/VerificationSuite.scala) from which you can add [Checks](src/main/scala/com/amazon/deequ/checks/Check.scala) that define constraints on attributes of the data. In this example, we test for the following properties of our data:
 
