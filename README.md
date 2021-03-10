@@ -2,7 +2,7 @@
 
 Below details covers the list of different things explored in addition to mandatory requirements of assignment.
 
-## Part 1
+## PART 1
 
 ### Image Dataset:
 New Image Dataset has been downloaded from Kaggle. This dataset comprises images of cats and dogs. AutoML has been executed on this dataset to get accurate results.
@@ -20,7 +20,7 @@ Model frameworks like scikit-learn and PyTorch has been evaluated instead of def
 New dataset has been downloaded from Kaggle to evaluate this. Also, RMSLE error has been instead of RMSE. Chronological assignment was chosen in data split, since we want to control splitting the data.
 
 
-## Part 2
+## PART 2
 
 ### Automl vision and timeseries forecasting models
 
