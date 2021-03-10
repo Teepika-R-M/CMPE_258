@@ -23,6 +23,12 @@ New dataset has been downloaded from Kaggle to evaluate this. Also, RMSLE error 
 ## Part 2
 
 ### Automl vision and timeseries forecasting models
+* For LSTM model, changed the model to SGD and adadelta and explored the results.
+* Also, CNN and stacked LSTM are tried to evaluate the working approach of the model.
+* The core parameters of ARIMA model i.e p,d and q are tweaked with different values to know it’s impact on the model output.
+* Number of seasons under seasonal_order values was changed.
+* Optimizer, filter and kernel_size for CNN model are changed with different values.
+* Replacing weights for Ensemble ML and Statistical models.
 
 ### E2E deployment of vision model to mobile device
 
