@@ -23,7 +23,10 @@ New dataset has been downloaded from Kaggle to evaluate this. Also, RMSLE error 
 ## PART 2
 
 ### Deployment of Vision Model
-Flowers Image dataset has been downloaded and the model is buit using automl to train and predict the type of flowers. The model is downloaded and the model.tflite file is exported along with the download from google storage bucket (Since model export requires downloading to the same location cloud bucket). Xcode and Cocopods are installed and the model is run for the local deployment of the application to iOS. After installing all the dependencies, the model is opened in the project workspace in Xcode and the play button is hit to run the application.
+* Flowers Image dataset has been downloaded and the model is buit using automl to train and predict the type of flowers. 
+* The model is downloaded and the model.tflite file is exported along with the download from google storage bucket (Since model export requires downloading to the same location cloud bucket). 
+* Xcode and Cocopods are installed and the model is run for the local deployment of the application to iOS. 
+* After installing all the dependencies, the model is opened in the project workspace in Xcode and the play button is hit to run the application.
 
 ### Automl vision and timeseries forecasting models
 
